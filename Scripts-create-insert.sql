@@ -128,14 +128,16 @@ CREATE TABLE comentarios (
     fecha_creacion TIMESTAMP NOT NULL,
     usuario_id BIGINT NOT NULL,
     post_id BIGINT NOT NULL
-)
+    );
+
 INSERT INTO
     comentarios (
-        contenido_id,
+        contenido,
         fecha_creacion,
         usuario_id,
         post_id
     )
+
 VALUES
     (
         'jueeee chico lo mataste',
