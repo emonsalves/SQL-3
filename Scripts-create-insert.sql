@@ -130,7 +130,9 @@ CREATE TABLE comentarios (
     comentario_fecha_creacion TIMESTAMP NOT NULL,
     comentario_usuario_id BIGINT NOT NULL,
     comentario_post_id BIGINT NOT NULL
-)
+);
+
+---------------------------------------------------------------------------------------------------------------------
 INSERT INTO
     comentarios (
         comentario_contenido_id,
