@@ -135,7 +135,7 @@ CREATE TABLE comentarios (
 ---------------------------------------------------------------------------------------------------------------------
 INSERT INTO
     comentarios (
-        comentario_contenido_id,
+        comentario_contenido,
         comentario_fecha_creacion,
         comentario_usuario_id,
         comentario_post_id
