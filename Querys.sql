@@ -44,7 +44,7 @@ GROUP BY
 SELECT
     u.email
 FROM
-    posts AS u FULL
+    posts AS p FULL
     JOIN usuarios AS u ON p.usuario_id = u.id
 GROUP BY
     u.email
